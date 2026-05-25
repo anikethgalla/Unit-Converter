@@ -13,6 +13,7 @@ let input=" "
 convertEl.addEventListener("click",function(){
     input=inputEl.value
     convert(input)
+    inputEl.value=""
 })
 
 function convert(input){
