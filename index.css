@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+#header{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background-color:#6943FF;
+    padding:20px;
+}
+h1{
+    color:white;
+}
+#input-btn{
+    height:83px;
+    width:117px;
+    margin:15px;
+    border:2px solid #B295FF;
+    background-color:#6943FF;
+    font-size:50px;
+    color:white;
+    text-align:center;
+}
+
+#convert-btn{
+    background-color: white;
+    border:0px;
+    width:117px;
+    height: 42px;
+    font-size:20px;
+}
+#measurement{
+    display:flex;
+    flex-direction:column;
+    margin:0px;
+    background-color: #1F2937;
+}
+#mass{
+    padding:8px;
+    margin:10px;
+    background-color: #273549;
+    text-align:center;
+    color:white;
+}
+#volume{
+    text-align:center;
+    padding:8px;
+    margin:10px;
+    background-color: #273549;
+    color:white;
+}
+#length{
+    text-align:center;
+    padding:8px;
+    margin:10px;
+    background-color: #273549;
+    color:white;
+}
